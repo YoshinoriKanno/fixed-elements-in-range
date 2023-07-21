@@ -21,19 +21,20 @@ aside {
 .aside-contents {
   background-color: lightgray;
   margin: 0;
+  height: 100px;
 }
 
 article {
   background-color: lightyellow;
   flex: 1;
   order: 1;
-  height: 1000px;
   padding: 16px;
 }
 
 .article-contents {
   background-color: lightgray;
   margin: 0;
+  height: 1000px;
 }
 
 footer {
@@ -47,4 +48,4 @@ footer {
 .feature-2 {
   background-color: lightseagreen;
   height: 1000px;
-}/*# sourceMappingURL=style.css.map */
+}

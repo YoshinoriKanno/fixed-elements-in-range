@@ -22,6 +22,7 @@ aside {
 .aside-contents {
   background-color: lightgray;
   margin: 0;
+  height: 100px;
 
 }
 
@@ -29,13 +30,14 @@ article {
   background-color: lightyellow;
   flex: 1;
   order: 1;
-  height: 1000px;
+  // height: 1000px;
   padding: 16px;
 }
 
 .article-contents {
   background-color: lightgray;
   margin: 0;
+  height: 1000px;
 
 }
 
