@@ -1,0 +1,58 @@
+header {
+  background-color: lightblue;
+  height: 400px;
+  position: sticky;
+}
+
+nav {
+  background-color: lightpink;
+  // width: 200px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 60px;
+}
+
+aside {
+  background-color: lightgreen;
+  width: 200px;
+  padding: 16px;
+}
+
+.aside-contents {
+  background-color: lightgray;
+  margin: 0;
+
+}
+
+article {
+  background-color: lightyellow;
+  flex: 1;
+  order: 1;
+  height: 1000px;
+  padding: 16px;
+}
+
+.article-contents {
+  background-color: lightgray;
+  margin: 0;
+
+}
+
+footer {
+  background-color: lightcoral;
+}
+
+main {}
+
+.feature-1 {
+  display: flex;
+
+
+}
+
+.feature-2 {
+  background-color: lightseagreen;
+  height: 1000px;
+
+}
