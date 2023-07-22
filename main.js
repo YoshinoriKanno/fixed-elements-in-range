@@ -5,7 +5,14 @@
     const articleContents = document.querySelector(".article-contents");
     const asideContents = document.querySelector(".aside-contents");
     const aside = document.querySelector("aside");
-    const navClientHeight = document.querySelector("nav").clientHeight;
+    const navElement = document.querySelector("nav");
+
+    if (!articleContents || !asideContents || !aside || !navElement) {
+      // セレクターが見つからない場合は処理を終了
+      return;
+    }
+
+    const navClientHeight = navElement.clientHeight;
     const asideContentsWidth = asideContents.clientWidth;
 
     const scrollOffset = navClientHeight + 20;
